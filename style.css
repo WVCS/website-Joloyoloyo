@@ -1,24 +1,44 @@
-body { h1 {
+h1 {
   color: green;
-  text-decoration: overline underline 10px limegreen dotted
- dotted;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 5px lime;
-   }
+    text-decoration: overline underline 10px limegreen dotted;
+    letter-spacing: 10px;
+    text-shadow: 2px 3px 5px lime;
+}
 
  body {
-  background-color: wheat
+  background-color: teal
  }
-img: hover{
+img:hover{
   width: 300px;
   border: dotted purple 10px;
   border-radius: 70%;
 }
 
  h1:hover{
-     text-decoration: overline wavy purple 20px;
+     text-decoration: overline underline wavy blue 20px;
      font-size: 400%;
      text-transform: uppercase;
-   }
+}
 
+
+
+nav {
+  list-style-type: none;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  float: left;
+  padding: 30px 280px;
+}
+li a:hover{
+  background-color: green;
+  color: black;
 }
